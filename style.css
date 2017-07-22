@@ -1,0 +1,202 @@
+/*----------------------------------------------------------------------------*/
+/* RESET & TYPOGRAPHY */
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 740px;
+
+  font-family: "Overpass", Helvetica, Roboto, sans-serif;
+  background-color: black;
+  color: white;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  text-align: center;
+}
+a {
+  color: cyan;
+}
+a:hover,
+a:focus {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+/*----------------------------------------------------------------------------*/
+/* IMPRESS STUFF */
+.step {
+    position: relative;
+    width: 1000px;
+    padding: 40px;
+    margin: 20px auto;
+    /*border: 3px solid red;*/
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    /*opacity: 0.6;*/
+
+    transition: opacity 1s;
+}
+.impress-enabled .step.active {
+  opacity: 1
+}
+.step.past {
+  /*opacity: 0.6;*/
+  opacity: 1;
+}
+.step.future {
+  opacity: 1;
+  /*opacity: 0;*/
+}
+
+.fallback-message {
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+.fallback-message p {
+    margin-bottom: 10px;
+}
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.impress-enabled          { pointer-events: none }
+.impress-enabled #impress { pointer-events: auto }
+
+
+/*----------------------------------------------------------------------------*/
+/* REUSABLE */
+.font30 {
+  font-size: 30px;
+}
+.font50 {
+  font-size: 50px;
+}
+.font75 {
+  font-size: 75px;
+}
+.font140 {
+  font-size: 140px;
+}
+.font200 {
+  font-size: 200px;
+}
+.green {
+  color: #00faab;
+}
+.blue {
+  color: #1a0dff;
+}
+.pink {
+  color: #f81968;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.video {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.video-portrait {
+  display: block;
+  margin: 0 auto;
+  height: 700px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  height: 700px;
+  max-width: 100%;
+}
+.width70 {
+  max-width: 70%;
+}
+
+.easyhard {
+  margin-bottom: 100px;
+}
+.easyhard h2 {
+  line-height: 0.8;
+}
+
+/*.one-line h2 {
+  font-size: 100px;
+  line-height: 1;
+}
+.listitem h2 {
+  font-size: 70px;
+}*/
+
+/*----------------------------------------------------------------------------*/
+/* INDIVIDUAL SLIDES */
+#title {
+  text-align: center;
+}
+
+#time {
+  display: flex;
+  justify-content: center;
+}
+#time > * {
+  margin: 20px;
+}
+
+#awesome {
+  position: relative;
+}
+#awesome h2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.ios-example {
+  width: 500px;
+}
+.ios-example video {
+  display: block;
+  margin: 0 auto;
+  height: 650px;
+}
+
+#space h2 {
+  transform: translateY(200px);
+  font-size: 250px;
+  font-weight: 900;
+}
+
+#ala img {
+  display: block;
+  margin: 100px auto 0;
+  height: 800px;
+  /*transform: translateY(-400px);*/
+}
+
+#restaurant iframe {
+  border: solid 3px white;
+}
+
+#thanks {
+  position: relative;
+}
+#thanks h2 {
+  position: absolute;
+  bottom: -480px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 270px;
+}
