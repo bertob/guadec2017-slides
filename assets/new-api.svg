@@ -282,7 +282,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="885.3413"
+     inkscape:cx="493.91273"
      inkscape:cy="437.13733"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -290,9 +290,9 @@
      units="px"
      inkscape:pagecheckerboard="false"
      inkscape:window-width="1366"
-     inkscape:window-height="768"
-     inkscape:window-x="1920"
-     inkscape:window-y="544"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -306,7 +306,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -327,7 +327,7 @@
          y="3328.7947" />
       <text
          xml:space="preserve"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.61332321px;line-height:11.0824976px;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:37.61332321px;line-height:11.0824976px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
          x="3275.8308"
          y="3377.5186"
          id="text7334"><tspan
@@ -335,14 +335,14 @@
            id="tspan7332"
            x="3275.8308"
            y="3377.5186"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.61332321px;line-height:30.22499657px;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';stroke:none;stroke-width:0.18968005;fill:#ffffff;">A NEW</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:37.61332321px;line-height:30.22499657px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';stroke:none;stroke-width:0.18968005;fill:#ffffff;">A NEW</tspan></text>
       <text
          id="text7338"
          y="3458.0305"
          x="3335.3167"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:87.7479248px;line-height:25.85429955px;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#00faab;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:87.7479248px;line-height:25.85429955px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#00faab;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:87.7479248px;line-height:70.51172638px;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';fill:#00faab;fill-opacity:1;stroke:none;stroke-width:0.18968007"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:87.7479248px;line-height:70.51172638px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';fill:#00faab;fill-opacity:1;stroke:none;stroke-width:0.18968007;"
            y="3458.0305"
            x="3335.3167"
            id="tspan7336"

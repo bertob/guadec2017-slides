@@ -13,10 +13,11 @@ body {
 h1, h2, h3, h4 {
   margin: 0;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
 }
 a {
-  color: cyan;
+  color: #00faab;
+  text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -80,9 +81,11 @@ a:focus {
 /* REUSABLE */
 .font30 {
   font-size: 30px;
+  line-height: 1.9;
 }
 .font50 {
-  font-size: 50px;
+  font-size: 46px;
+  line-height: 1.7;
 }
 .font75 {
   font-size: 75px;
@@ -106,6 +109,20 @@ a:focus {
   margin-bottom: 30px;
 }
 
+.api {
+  height: 700px;
+  padding: 0;
+  /*border: 2px solid red;*/
+}
+.title {
+  margin: 1rem 0 2rem;
+  font-weight: 900;
+}
+.small-title {
+  font-weight: 900;
+  margin: 3rem 0 1rem;
+}
+
 .video {
   display: block;
   width: 80%;
@@ -125,6 +142,9 @@ a:focus {
 }
 .width70 {
   max-width: 70%;
+}
+.height600 {
+  height: 600px;;
 }
 
 .easyhard {
@@ -200,4 +220,5 @@ a:focus {
   left: 50%;
   transform: translate(-50%, 0);
   font-size: 270px;
+  font-weight: 900;
 }

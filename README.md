@@ -1,4 +1,4 @@
-# Building Interfaces from the future
+# Building Interfaces from the Future
 
 The slides for my talk at [GUADEC 2017](https://2017.guadec.org/talks-and-events/#abstract-16-building_interfaces_from_the_future)
 
