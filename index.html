@@ -8,6 +8,8 @@
     <title>Building Interfaces from the Future</title>
 
     <link href="assets/overpass-webfont/overpass.css" rel="stylesheet" />
+    <!-- <link href="lib/prism.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="/lib/atom-one-dark.css">
     <link href="style.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="favicon.png" />
@@ -38,11 +40,11 @@
     </div>
     <div class="step paused" data-x="-750" data-y="4600" data-scale="1.5">
       <h3 class="font50 mb30">Maintain Object Connectivity</h3>
-      <video class="video" src="assets/gs-overview.webm" loop>
+      <video class="video slowmo" src="assets/gs-overview.mkv" loop>
     </div>
     <div class="step paused" data-x="750" data-y="4600" data-scale="1.5">
       <h3 class="font50 mb30">Convey Structural Relationships</h3>
-      <video class="video" src="assets/gs-workspaces.webm" loop>
+      <video class="video" src="assets/gs-workspaces.mkv" loop>
     </div>
 
     <div id="awesome" class="step one-line" data-x="1000" data-y="2200" data-scale="4">
@@ -156,8 +158,28 @@
       <img class="img" src="assets/inspiration.svg">
     </div>
 
-    <div class="step api" data-x="8900" data-y="9500" data-scale="2">
+    <div class="step api" data-x="8600" data-y="9500" data-scale="2">
       <h2 class="title font75 green">React Flight</h2>
+      <img class="img api-img" src="assets/api-flight.svg">
+      <div class="sidebyside">
+        <pre><code class="html">
+              &lt;div&gt;
+                &lt;Oval
+                  scale=1
+                  name="circle"&gt;
+              &lt;/div&gt;
+        </code></pre>
+        <pre><code class="html">
+    &lt;div&gt;
+      &lt;Oval
+        scale=3
+        name="circle"&gt;
+    &lt;/div&gt;
+        </code></pre>
+      </div>
+
+    </div>
+    <div class="step api" data-x="8600" data-y="10900" data-scale="2">
       <h2 class="font50">declarative states</h2>
       <h2 class="font50">automatic transitions</h2>
       <h2 class="small-title font50 green">Issues:</h2>
@@ -167,16 +189,51 @@
 
     <div class="step api" data-x="10400" data-y="9500" data-scale="2">
       <h2 class="title font75 green">React Native</h2>
+      <img class="img api-img" src="assets/api-native.svg">
+      <div class="sidebyside">
+        <pre><code class="javascript">
+        scaleAnim = 1;
+
+        onEvent() {
+          scaleAnim = 4;
+        }
+        </code></pre>
+        <pre><code class="html">
+render {
+  &lt;div&gt;
+    &lt;Oval scale=scaleAnim&gt;
+  &lt;/div&gt;
+}
+        </code></pre>
+      </div>
+    </div>
+    <div class="step api" data-x="10400" data-y="10900" data-scale="2">
       <h2 class="font50">animated values</h2>
       <h2 class="font50">sequencing</h2>
       <h2 class="font50">mapped properties</h2>
       <h2 class="font50">spring physics</h2>
       <h2 class="small-title font50 green">Issues:</h2>
-      <h2 class="font50">very complex</h2>
+      <h2 class="font50">complex and unintuitive</h2>
     </div>
 
-    <div class="step api" data-x="11900" data-y="9500" data-scale="2">
+    <div class="step api" data-x="12200" data-y="9500" data-scale="2">
       <h2 class="title font75 green">Framer</h2>
+      <img class="img api-img" src="assets/api-framer.svg">
+      <div class="sidebyside">
+        <pre><code class="coffeescript">
+          layer.states.small =
+            scale: 1
+
+          layer.states.big =
+            scale: 4
+        </code></pre>
+        <pre><code class="coffeescript">
+      layer.onTap ->
+        layer.animate(big)
+        </code></pre>
+      </div>
+    </div>
+    <div class="step api" data-x="12200" data-y="10900" data-scale="2">
       <h2 class="font50">declarative states</h2>
       <h2 class="font50">shared structure</h2>
       <h2 class="font50">primitives for scroll, drag, etc.</h2>
@@ -217,7 +274,10 @@
 
 </div>
 
-<script src="impress.js"></script>
+<script src="lib/impress.js"></script>
+<!-- <script src="lib/prism.js"></script> -->
+<script src="/lib/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script>impress().init();</script>
 
 </body>

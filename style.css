@@ -10,6 +10,10 @@ body {
   background-color: black;
   color: white;
 }
+code {
+  font-family: "Ubuntu Mono ", monospace;
+  font-weight: 700;
+}
 h1, h2, h3, h4 {
   margin: 0;
   text-align: center;
@@ -110,7 +114,7 @@ a:focus {
 }
 
 .api {
-  height: 700px;
+  /*height: 700px;*/
   padding: 0;
   /*border: 2px solid red;*/
 }
@@ -161,6 +165,27 @@ a:focus {
 .listitem h2 {
   font-size: 70px;
 }*/
+
+.sidebyside {
+  display: flex;
+  /*transform: translateX(-100px);*/
+}
+.sidebyside > pre {
+  /*margin: 0;*/
+  width: 50%;
+}
+.hljs {
+  width: 100%;
+  /*overflow: hidden;*/
+  background-color: transparent;
+  padding: 0;
+  font-size: 26px;
+}
+.api-img {
+  width: 50%;
+  height: auto;
+  margin-top: -50px;
+}
 
 /*----------------------------------------------------------------------------*/
 /* INDIVIDUAL SLIDES */
