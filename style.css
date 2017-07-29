@@ -23,10 +23,8 @@ a {
   color: #00faab;
   text-decoration: none;
 }
-a:hover,
-a:focus {
-    background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+a:hover {
+    text-decoration: underline;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -56,7 +54,7 @@ a:focus {
 }
 .step.future {
   opacity: 1;
-  /*opacity: 0;*/
+  opacity: 0;
 }
 
 .fallback-message {
@@ -155,6 +153,7 @@ a:focus {
   margin-bottom: 100px;
 }
 .easyhard h2 {
+  font-weight: 900;
   line-height: 0.8;
 }
 
