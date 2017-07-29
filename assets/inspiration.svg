@@ -111,7 +111,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -140,7 +140,7 @@
          sodipodi:role="line">INSPIRATION</tspan></text>
     <text
        xml:space="preserve"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:72.39139557px;line-height:5.82083368px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ebebeb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:72.39139557px;line-height:5.82083368px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18968007;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
        x="-418.69388"
        y="322.81009"
        id="text6488-6-3"><tspan
@@ -148,7 +148,7 @@
          id="tspan6486-1-6"
          x="-418.69388"
          y="322.81009"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:72.39139557px;line-height:5.82083368px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';stroke:none;stroke-width:0.18968007"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:72.39139557px;line-height:5.82083368px;font-family:Overpass;-inkscape-font-specification:'Overpass Heavy';stroke:none;stroke-width:0.18968007;fill:#ffffff;"
          dx="0 0 -6.0000005 6.0000005">&lt;//;</tspan></text>
   </g>
 </svg>
