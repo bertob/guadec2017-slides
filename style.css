@@ -34,14 +34,12 @@ a:hover {
     width: 1000px;
     padding: 40px;
     margin: 20px auto;
-    /*border: 3px solid red;*/
     font-size: 48px;
     line-height: 1.5;
 }
 
 .impress-enabled .step {
     margin: 0;
-    /*opacity: 0.6;*/
 
     transition: opacity 1s;
 }
@@ -49,12 +47,10 @@ a:hover {
   opacity: 1
 }
 .step.past {
-  /*opacity: 0.6;*/
   opacity: 1;
 }
 .step.future {
   opacity: 1;
-  opacity: 0;
 }
 
 .fallback-message {
@@ -112,9 +108,7 @@ a:hover {
 }
 
 .api {
-  /*height: 700px;*/
   padding: 0;
-  /*border: 2px solid red;*/
 }
 .title {
   margin: 1rem 0 2rem;
@@ -157,20 +151,10 @@ a:hover {
   line-height: 0.8;
 }
 
-/*.one-line h2 {
-  font-size: 100px;
-  line-height: 1;
-}
-.listitem h2 {
-  font-size: 70px;
-}*/
-
 .sidebyside {
   display: flex;
-  /*transform: translateX(-100px);*/
 }
 .sidebyside > pre {
-  /*margin: 0;*/
   width: 50%;
 }
 .hljs {
@@ -200,15 +184,6 @@ a:hover {
   margin: 20px;
 }
 
-#awesome {
-  position: relative;
-}
-#awesome h2 {
-  position: absolute;
-  top: 50%;
-  right: 0;
-}
-
 .ios-example {
   width: 500px;
 }
@@ -228,7 +203,6 @@ a:hover {
   display: block;
   margin: 100px auto 0;
   height: 800px;
-  /*transform: translateY(-400px);*/
 }
 
 #restaurant iframe {
