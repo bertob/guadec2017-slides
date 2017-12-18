@@ -23,3 +23,5 @@ I will show some interface prototypes I built and explain why they were so diffi
 [Spatial Interfaces](https://medium.com/elepath-exports/spatial-interfaces-886bccc5d1e9) by Pasquale D’Silva
 
 [Material Design Guidelines (section on motion)](https://material.io/guidelines/motion/material-motion.html) by Google
+
+[Creating Usability with Motion: The UX in Motion Manifesto](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc) by Issara Willenskomer
