@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="/lib/atom-one-dark.css">
     <link href="style.css" rel="stylesheet" />
 
-    <script src="lib/impress.js"></script>
-    <script src="/lib/highlight.pack.js"></script>
-
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -26,9 +23,6 @@
 </div>
 
 <div id="impress" data-transition-duration="400" data-perspective="800">
-
-    <div id="overview" class="step" data-x="8000" data-y="5000" data-scale="20">
-    </div>
 
     <div id="title" class="step" data-x="2800" data-y="-1000" data-scale="8">
       <img class="img" src="assets/title.svg">
@@ -261,11 +255,16 @@ render {
       <h3 class="font30">Slides: <a href="https://github.com/bertob/guadec2017-slides">github.com/bertob/guadec2017-slides</a></h3>
     </div>
 
+    <div id="overview" class="step" data-x="8000" data-y="5000" data-scale="20">
+    </div>
 
 </div>
 
-<script>hljs.initHighlightingOnLoad();</script>
+<script src="lib/impress.js"></script>
+<script src="/lib/highlight.pack.js"></script>
+
 <script>impress().init();</script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>
